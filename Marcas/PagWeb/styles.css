@@ -1,5 +1,26 @@
 body{
     font-family: "Exo 2", sans-serif;
     color: white;
-    background-color: #000000;
+    background-color: #404040;
+}
+
+.sidebar{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    background-color: #202020;
+}
+
+.sidebar div{
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+.body-text{
+    margin-left: 150px;
+    font-size: 18px;
 }
