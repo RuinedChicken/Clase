@@ -29,3 +29,4 @@ introducidos por teclado. El programa debe finalizar cuando el
 
 10. Diseñar un algoritmo que visualice el día de la semana según el número
  introducido por teclado
+ 
