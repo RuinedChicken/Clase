@@ -30,7 +30,7 @@ public class Adivinar {
         int puntuacionMaxima = numeroSecreto - (i * 2);
         int puntuacionObtenida;
         
-        do{
+        do{            
             System.out.println("Introduce un número para intentar adivinar el número secreto: ");
             numeroIntento = lector.nextInt();
             if (numeroIntento == numeroSecreto){

@@ -6,12 +6,37 @@ body{
 
 .sidebar{
     height: 100%;
-    width: 150px;
+    width: 175px;
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: #202020;
+}
+
+/*Si tocamos el width de .sidebar tendremos que dejar,
+como minimo, idéntico valor en margin-left */
+.body-text{
+    margin-left: 200px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.menuBoton{
+    height: 50px;
+    width: 136px;
+    text-align:left;
+    display:inline-block;
+    text-decoration: none;
+    padding: 12px 12px;
+    background: #303030;
+    color: white;
+}
+
+.menuBoton:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 8px 8px #fff;
 }
 
 .sidebar div{
@@ -20,7 +45,3 @@ body{
     display: block;
 }
 
-.body-text{
-    margin-left: 150px;
-    font-size: 18px;
-}
