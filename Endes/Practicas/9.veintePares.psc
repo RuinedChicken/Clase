@@ -8,4 +8,6 @@ Proceso sin_titulo
 		Si numerito % 2 = 0 Entonces
 			Escribir numerito;
 		FinSi
+		
 	FinMientras
+FinProceso

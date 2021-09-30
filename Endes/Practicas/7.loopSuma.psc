@@ -6,4 +6,5 @@ Proceso sin_titulo
 		Leer input;
 		suma <- input + suma;
 	Hasta Que input = 0;
+	
 FinProceso

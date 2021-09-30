@@ -1,6 +1,9 @@
 Proceso sin_titulo
 	Definir input Como Entero;
 	
+	Escribir "Mete un numero del 1 al 7";
+	Leer input;
+	
 	Segun input Hacer
 		opcion_1:
 			Escribir "Lunes";

@@ -1,12 +1,15 @@
 Proceso sin_titulo
-	definir input, suma Como Entero;
 	
-	suma <- 0;
+	// contar cuantos ha metido
+	definir input, i Como Entero;
 	
 	Repetir
+		Escribir "dame un int";
 		Leer input;
 		
-		suma <- input + suma;
+		i<- i+1;
 		
 	Hasta Que input = 0;
+	
+	Escribir i;
 FinProceso
