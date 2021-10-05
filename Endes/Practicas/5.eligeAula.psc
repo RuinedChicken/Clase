@@ -2,10 +2,11 @@ Proceso sin_titulo
 	
 	Definir seleccion Como Entero;
 	
-	Leer seleccion;
-	
 	Escribir "Elige una opcion del 1 al 3: 1. SMR 2. DAW 3. DAM";
 	
+	Leer seleccion;
+	
+
 	Segun seleccion Hacer
 		opcion_1:
 			Escribir "Aula de SMR";

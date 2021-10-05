@@ -4,6 +4,10 @@ body{
     background-color: #404040;
 }
 
+.titulo{
+    text-align: center;
+}
+
 .sidebar{
     height: 100%;
     width: 175px;

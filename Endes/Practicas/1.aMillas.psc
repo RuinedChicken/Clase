@@ -6,7 +6,7 @@ Proceso aMillas
 	Escribir "Introduzca el número que quiere ver convertido a m";
 	Leer A;
 	B<- A/1609;
-	Escribir "A millas equivalen a: B metros.";
+	Escribir A, " millas equivalen a:", B, "B metros.";
 	
 		
 
