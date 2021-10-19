@@ -19,10 +19,28 @@ public class Adivinar {
         
         Scanner lector = new Scanner(System.in);
         
+        
         System.out.println("Por favor, introduce el número entero que quieres que se adivine:");
+        int numeroSecreto = 0;
+        int errorInput;
         
         // El número a adivinar.
-        int numeroSecreto = lector.nextInt();
+        
+        do{
+            try{
+                numeroSecreto = lector.nextInt();
+                if (numeroSecreto <0){
+                    System.out.println("Por favor, introduce un número positivo:");
+                }
+                
+                errorInput = 0;
+            }catch (Exception e){
+                        System.out.println("Error, no has introducido un número entero. Inténtalo de nuevo: ");
+                        lector.nextLine();
+                        errorInput = 1;
+                    }
+        }while (errorInput != 0 || numeroSecreto <0);
+        
         // El número con el que intentamos adivinar.
         int numeroIntento;
         int i = 1;
