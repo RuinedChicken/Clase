@@ -20,7 +20,7 @@ public class Adivinar {
         Scanner lector = new Scanner(System.in);
         
         
-        System.out.println("Por favor, introduce el número entero que quieres que se adivine:");
+        System.out.println("Por favor, introduce el número entero positivo que quieres que se adivine:");
         int numeroSecreto = 0;
         int errorInput;
         
