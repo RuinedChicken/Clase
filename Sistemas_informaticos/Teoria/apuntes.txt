@@ -1,0 +1,7 @@
+hay 6 niveles raid
+
+raid 6 tiene 2 bloques de paridad que contienen los datos redundantes para restaurar
+
+A1 A2 AP1 AP2
+
+

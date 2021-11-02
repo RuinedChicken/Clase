@@ -1,0 +1,24 @@
+Proceso PrimeraMatriz
+	//Relleno de matriz
+	Definir i, j, matriz Como Entero;
+	Dimension matriz[2,3];
+	
+	//Inserci�n de datos
+	Para i<-0 Hasta 1 Con Paso 1 Hacer
+		
+		Para j<-0 Hasta 2 Con Paso 1 Hacer
+			Escribir "Indique el elemento ", i, ",", j;
+			Leer matriz[i,j];
+		FinPara
+	FinPara
+	
+	//Visualizaci�n y formato
+	Para i<-0 Hasta 1 Con Paso 1 Hacer
+		
+		Para j<-0 Hasta 2 Con Paso 1 Hacer
+			Escribir Sin Saltar matriz[i,j];
+			Escribir Sin Saltar "   ";
+		FinPara
+		Escribir "";
+	FinPara
+FinProceso

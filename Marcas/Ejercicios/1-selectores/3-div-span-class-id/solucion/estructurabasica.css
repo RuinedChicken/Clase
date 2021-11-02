@@ -1,0 +1,9 @@
+body{background:black;}
+
+#cabecera{background:silver;
+           height:400px;}
+#cuerpo{background:yellow;
+            height:400px;}
+#cabecera  span{color:red;}
+
+

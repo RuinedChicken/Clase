@@ -1,0 +1,36 @@
+body { background-color: black;
+                }
+
+         #cabecera
+         {width: 90%;
+          height: 100px; 
+          background-color: silver;
+          margin: 0 auto;
+          color:purple;
+        
+            }
+
+        
+          #centro
+          {border:2px black solid;
+          width: 80%;
+          height: 800px; 
+          background-color: yellow;
+          margin: 0 auto;
+            }
+
+
+          #a{          
+              background-color:pink ;  
+               
+               width: 20%;
+               height:100%;
+                float:left; }
+          #b{
+              background-color:orange ; 
+              
+              width: 80%;
+              height:100%;  
+              float:left;}
+       
+
