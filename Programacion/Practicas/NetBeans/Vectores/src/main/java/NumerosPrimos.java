@@ -1,23 +1,25 @@
+import java.util.Scanner;
+public class NumerosPrimos{
+public static void main (String[] args){
+    int[] array = new int [5];
+    Scanner in = new Scanner (System.in);
 
-public class NumerosPrimos {
-        public static void main(String[] args){
-            int vectorPrimos[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
-            int i = 0, j = 0;
-            boolean esPrimo = true;
+    System.out.println("Enter the elements of the array: ");
+    for(int i=0; i<5; i++)
+    {
+        array[i] = in.nextInt();
+    }
 
-            int a = 13;
-
-            for( i = 0; i<vectorPrimos.length; i++){
-                for (j = 2; j<vectorPrimos.length && esPrimo; j++){
-                    if (vectorPrimos[i] % j == 0){
-                        esPrimo = false;
-                }
-                if(esPrimo){
-                    System.out.println(vectorPrimos[i] + " Es primo");
+    for(int i=0; i<array.length; i++){
+            boolean isPrime = true;
+            for (int j=2; j<i; j++){
+                if(i%j==0){
+                    isPrime = false;
+                    break;
                 }
             }
-            esPrimo = true;
+            if(isPrime)
+                System.out.println(i + " are the prime numbers in the array ");
         }
     }
 }
-

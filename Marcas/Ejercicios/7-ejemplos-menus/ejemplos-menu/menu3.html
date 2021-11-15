@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title>Pr&aacute;ctica 4</title>
+    <style type="text/css">        
+        body{
+            background-color: black;
+            font-family: Cambria;
+        }
+        
+        #contenedor{
+            width: 950px;
+            margin: auto;
+        }
+        
+        #titulo{
+            margin: 0px auto 20px auto;
+            font-size: 20pt;
+            font-weight: bold;
+            text-align: center;
+            color: #61380B;
+        }
+        
+        #pelicula{
+            float: left;
+        }
+        
+        #detallePeli{
+            float: right;
+        }
+        
+        table{
+            border: solid #61380B;
+            
+        }
+        
+        .colTitulo{
+            background-color: #61380B;
+            color: #D8D8D8;
+            text-align: center;
+        }
+        
+        .colIzquierda{
+            background-color: #89691F;
+            color: black;
+            font-weight: bold;
+            border: hidden;
+            padding: 3px;
+        }
+        
+        .colDerecha{
+            background-color: #B59959;
+            color: black;
+            border: hidden;
+        }
+        
+        .colDerecha:hover{
+            background-color: #DBA017;
+            color: black;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>    
+    <div id="contenedor">
+        <div id="titulo">
+            Gran Torino
+        </div>
+        <div id="cuerpo">
+            <div id="pelicula">
+                <object width="480" height="385">
+                    <param name="movie" value="http://www.youtube.com/v/n3zpdjPcAfc?fs=1&amp;hl=es_ES"></param>
+                    <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
+                    <embed src="http://www.youtube.com/v/n3zpdjPcAfc?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash"
+                           allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed>
+                </object>
+            </div>
+            <div id="detallePeli">
+                <table>
+                    <tr>
+                        <td colspan="2" class="colTitulo">Ficha Pel&iacute;cula</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">T&iacute;tulo</td>
+                        <td class="colDerecha">Gran Torino</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="colTitulo">Ficha t&eacute;cnica</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">Director</td>
+                        <td class="colDerecha">Clint Eastwood</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">Gui&oacute;n</td>
+                        <td class="colDerecha">Nick Schenk</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="colIzquierda">M&uacute;sica</td>
+                        <td class="colDerecha">Kyle Eastwood</td>
+                    </tr>
+                    <tr>
+                        <td class="colDerecha">Michael Stevens</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="colIzquierda">Editor</td>
+                        <td class="colDerecha">Joel Cox</td>
+                    </tr>
+                    <tr>
+                        <td class="colDerecha">Gary D. Roach</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">Fotograf&iacute;a</td>
+                        <td class="colDerecha">Tom Stern</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="colIzquierda">Reparto</td>
+                        <td class="colDerecha">Clint Eastwood</td>
+                    </tr>
+                    <tr>
+                        <td class="colDerecha">Geraldine Hughes</td>
+                    </tr>
+                    <tr>
+                        <td class="colDerecha">Cory Hardrict</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="colTitulo">Datos y Cifras</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">G&eacute;nero</td>
+                        <td class="colDerecha">Drama</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">Nacionalidad</td>
+                        <td class="colDerecha">Estados Unidos</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">A&ntilde;o</td>
+                        <td class="colDerecha">2008</td>
+                    </tr>
+                    <tr>
+                        <td class="colIzquierda">Fecha de Estreno</td>
+                        <td class="colDerecha">Viernes, 6 de Marzo del 2009</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

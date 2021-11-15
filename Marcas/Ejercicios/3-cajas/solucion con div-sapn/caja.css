@@ -1,0 +1,42 @@
+#caja {
+
+width: 500px;
+height:350px;
+
+border: 10px solid black;
+margin-left: 100px;
+
+padding: 50px;
+
+/*background-color:blue;
+background-image:url("anillo.gif");
+background-position:center;
+background-repeat:no-repeat;*/
+
+background:blue url("anillo.gif") center no-repeat;
+
+overflow: scroll;/* aparecen las barras de desplazamiento*/
+/*overflow:hidden; */
+}
+
+
+
+#caja p { 
+   font-size:2em;
+   color:red;
+   text-align:center;
+
+   }
+#caja p:hover { color:pink;
+   font-size:2em;
+
+   }
+
+/*.rojo{color:red;}*/
+
+/*p {text-align:center;
+   color:red;}*/
+
+span.verde{color: green;} 
+
+.subrayado {text-decoration: underline;}

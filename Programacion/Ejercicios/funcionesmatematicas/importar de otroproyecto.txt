@@ -1,0 +1,2 @@
+Netbeans te permite crear el .jar de tu proyecto (tus clases) con la opción de "Clean and build" sobre tu proyecto, y te genera en .jar en la carpeta "dist" de tu proyecto de Netbeans. Para añadir ese .jar en otro proyecto solo le das clic derecho al proyecto nuevo : propiedades, librerias y en la opción de "añadir librería o .jar" y listo.
+
