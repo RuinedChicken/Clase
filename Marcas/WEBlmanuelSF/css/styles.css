@@ -1,0 +1,52 @@
+body{
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    background-color: #404040;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.sidebar{
+    height: 100%;
+    width: 175px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #202020;
+}
+
+/*Si tocamos el width de .sidebar tendremos que dejar,
+como minimo, idéntico valor en margin-left */
+.body-text{
+    margin-left: 200px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.menuBoton{
+    height: 50px;
+    width: 136px;
+    text-align:left;
+    display:inline-block;
+    text-decoration: none;
+    padding: 12px 12px;
+    background: #303030;
+    color: white;
+}
+
+/* Ejemplo de pseudoclase, muestra un brillo blanco al seleccionar
+un boton del menú*/
+.menuBoton:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 8px 8px #fff;
+}
+
+.sidebar div{
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}

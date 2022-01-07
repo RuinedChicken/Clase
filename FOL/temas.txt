@@ -1,0 +1,5 @@
+primeros 4 (aprobe 1 y 2, debo recuperar 3 y 4)
+
+2
+8 9 y 10
+
