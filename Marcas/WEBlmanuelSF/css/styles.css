@@ -50,3 +50,15 @@ un boton del menú*/
     font-size: 24px;
     display: block;
 }
+
+img {
+    border-radius: 8px;
+  }
+
+  .background{
+      background-image: url('../imagenes/irit.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 100%;
+  }
